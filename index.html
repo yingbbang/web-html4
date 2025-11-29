@@ -5,9 +5,20 @@
     <meta charset="UTF-8">
     <title>쇼핑몰</title>
     <style>
+        /*reset*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
         #container {
-            width: 1000px;
-            height: 700px;
+            width: 1200px;
+            height: 800px;
             margin: 0 auto;
             background-color: gold;
             display: flex;
@@ -31,10 +42,24 @@
         }
 
         #container>.box {
-            width: 25%;
-            height: 30%;
+            width: 20%;
+            height: 35%;
             background-color: tomato;
             margin: 10px;
+            text-align: center;
+        }
+
+        #container>.box>a>img {
+            width: 100%;
+            height: 210px;
+        }
+
+        #container>.box>h3>a {
+            font-size: 17px;
+        }
+
+        #container>.box>p>a {
+            font-size: 12px;
         }
     </style>
 </head>
@@ -43,13 +68,57 @@
     <div id="container">
         <h3>오늘의 상품</h3>
         <p>오늘의 상품을 만나보세요.</p>
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
-        <div class="box">5</div>
-        <div class="box">6</div>
+        <div class="box">
+            <a href="#"><img src="img/img1.jpg" alt=""></a>
+            <h3><a href="#">당도선별 수박, 5kg미만, 1개</a></h3>
+            <p><a href="#">23,000원</a></p>
+        </div>
 
+
+        <div class="box">
+            <a href="#"><img src="img/img2.jpg" alt=""></a>
+            <h3><a href="#">당도선별 수박, 5kg미만, 1개</a></h3>
+            <p><a href="#">23,000원</a></p>
+        </div>
+
+        <div class="box">
+            <a href="#"><img src="img/img3.jpg" alt=""></a>
+            <h3><a href="#">당도선별 수박, 5kg미만, 1개</a></h3>
+            <p><a href="#">23,000원</a></p>
+        </div>
+
+
+        <div class="box">
+            <a href="#"><img src="img/img4.jpg" alt=""></a>
+            <h3><a href="#">당도선별 수박, 5kg미만, 1개</a></h3>
+            <p><a href="#">23,000원</a></p>
+        </div>
+
+        <div class="box">
+            <a href="#"><img src="img/img1.jpg" alt=""></a>
+            <h3><a href="#">당도선별 수박, 5kg미만, 1개</a></h3>
+            <p><a href="#">23,000원</a></p>
+        </div>
+
+
+        <div class="box">
+            <a href="#"><img src="img/img2.jpg" alt=""></a>
+            <h3><a href="#">당도선별 수박, 5kg미만, 1개</a></h3>
+            <p><a href="#">23,000원</a></p>
+        </div>
+
+        <div class="box">
+            <a href="#"><img src="img/img3.jpg" alt=""></a>
+            <h3><a href="#">당도선별 수박, 5kg미만, 1개</a></h3>
+            <p><a href="#">23,000원</a></p>
+        </div>
+
+
+        <div class="box">
+            <a href="#"><img src="img/img4.jpg" alt=""></a>
+            <h3><a href="#">당도선별 수박, 5kg미만, 1개</a></h3>
+            <p><a href="#">23,000원</a></p>
+        </div>
     </div>
 </body>
 
